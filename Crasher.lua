@@ -50,7 +50,7 @@ end
 local Config = {Strength = 3000, Amount = 0}
 
 local APITarpit = debuginfo:new()
-local Title = APITarpit:newInfo("// MTL Tarpit Stats \\\\")
+local Title = APITarpit:newInfo("// SkiddCrasher Stats \\")
 local Strength = APITarpit:newInfo("KeepAliveRate: " .. Config.Strength)
 local SEPLatency = APITarpit:newInfo("X->S SRVCheck: " .. 34832234 .. " : 3842")
 local TimeBefore = os.clock()
